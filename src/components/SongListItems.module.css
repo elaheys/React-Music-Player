@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Lato&family=Sigmar&display=swap');
+
+.songDescription{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.songDescription h3{
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 1vh;
+    text-align: center;
+    font-family: 'Sigmar', cursive;
+    color: rgb(0, 0, 0);
+   
+
+}
+.songDescription h4{
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Lato', sans-serif; 
+}
+.songItem{
+    width: 250px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 3vh;
+    cursor: pointer;
+}
+.songItem:hover{
+    background-color: rgb(109, 127, 135);
+}
+
+.songItem img{
+    width: 80px;
+}
+.selected{
+    background-color: rgba(47, 49, 61, 0.59);
+}

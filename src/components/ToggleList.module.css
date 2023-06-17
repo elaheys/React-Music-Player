@@ -1,0 +1,53 @@
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+button{
+    background-color: rgb(29, 30, 29);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0.5rem;
+    transition: all 0.3s ease;
+    color: #fff;
+    
+}
+button:hover{
+    background-color: rgb(234, 241, 237);
+    color: black;
+    transition: all 0.3s ease;
+}
+.span{
+    margin-right: 5px;
+    font-weight: bold;
+}
+.toggleTitle{
+    font-weight: bold;
+    color: rgb(44, 45, 45);
+}
+@media screen and (max-width:768px){
+    button{
+        z-index: 10;
+        margin-right: 25px;
+        margin-top: 20px;
+    }
+    
+}
+
+@media (min-width:1000px) and (max-width:1200px){
+    .toggleTitle{
+        margin-left: 70px;
+    }
+}
+
+@media screen and (max-width:400px){
+    nav{
+        padding: 20px 50px;
+    }
+    button{
+       display: flex;
+       flex-wrap: nowrap;
+    }
+}

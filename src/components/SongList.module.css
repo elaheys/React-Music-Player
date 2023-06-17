@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+.songList{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20vw;
+    height: 100vh;
+    background-color: rgb(88, 89, 90);
+    box-shadow: 2px 2px 10px rgb(105, 105, 105);
+    overflow: scroll;
+    transition: all 1s linear;
+
+}
+.songList h2{
+    padding: 1vw;
+    text-align: center;
+    font-family: 'Sigmar', cursive;
+    font-weight: 300;
+    padding-bottom: 30px;
+    color:  rgb(0, 0, 0);
+}
+
+.songListItems{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    padding: 20px 0; 
+    margin-left: 10px;
+    
+}
+*{
+    scrollbar-width: thin;
+    scrollbar-color: rgba(173, 177, 177, 0.5) transparent;
+}
+*::-webkit-scrollbar{
+    width: 5px;
+}
+*::-webkit-scrollbar-track{
+    background: transparent;
+}
+*::-webkit-scrollbar-thumb{
+    background-color: rgba(155, 155, 155, 0.5);
+    border-radius: 20px;
+    border: transparent;
+}
+.displayList{
+    transform: translateX(-30vw);
+}
+@media screen and (max-width:768px){
+    .songList{
+        width: 100vw;
+        transition: all 1s ease;
+    }
+    .displayList{
+        transform: translateX(-100vw);
+    }
+    .songList h2{
+        margin-right:100px ;
+    }
+}
+@media (min-width:768px) and (max-width:900px) {
+    .songList{
+        width: 35vw;
+        transition: all 1s ease;
+    }
+    .displayList{
+        transform: translateX(-30vw);
+    }
+}
+@media (min-width:900px) and (max-width:1000px){
+    .songList{
+        width: 32vw;
+        transition: all 1s ease;
+    }
+    .displayList{
+        transform: translateX(-30vw);
+    }
+}
+@media (min-width:1000px) and (max-width:1200px){
+    .songList{
+        width: 28vw;
+        transition: all 1s ease;
+    }
+    .displayList{
+        transform: translateX(-20vw);
+    }
+}
