@@ -27,6 +27,11 @@ button:hover{
     font-weight: bold;
     color: rgb(44, 45, 45);
 }
+@media screen and (max-width:430px) {
+    button{
+       margin-left: 180px;
+    }
+}
 @media screen and (max-width:768px){
     button{
         z-index: 10;

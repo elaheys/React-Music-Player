@@ -73,3 +73,16 @@ input[type='range']::-moz-range-thumb{
         width: 60%;
     }
 }
+
+@media(max-width:400px){
+    .skipBack{
+        font-size:52px;
+    }
+    .skipForward{
+        font-size:52px;
+    }
+    .play{
+        font-size:42px;
+    }
+   
+}

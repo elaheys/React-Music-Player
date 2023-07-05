@@ -19,6 +19,7 @@ function App() {
   return (
     <div  style={{background:`linear-gradient(30deg,${currentSong.color[0]} 40%,${currentSong.color[1]} 100%)`,}}
     className={`${style.App} ${displayListSong ? style.activeList : ''}`}>
+      
       <ToggleList displayListSong={displayListSong} setDisplayListSong={setDisplayListSong}/>
       <Song currentSong={currentSong}/>
       <Player setSongs={setSongs} songs={songs} setCurrentSong={setCurrentSong} currentSong={currentSong} isPlaying={isPlaying} setIsPlaying={setIsPlaying} />
