@@ -1,5 +1,13 @@
 # Getting Started with Create React App
 
+you can see my app live here:
+https://playerell.netlify.app
+
+![Screenshot 2023-11-07 161334](https://github.com/elaheys/React-Music-Player/assets/112415062/534bbd15-bd1f-482b-959b-310b6744cb75)
+
+
+![Screenshot 2023-11-07 161410](https://github.com/elaheys/React-Music-Player/assets/112415062/85890922-b3c2-41a1-a7ee-1a19e7159fdc)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
